@@ -47,3 +47,9 @@ mantel.test <- function(m1, m2, nperm = 999, graph = FALSE,
 # x = matrix(c(0,1,2,1,0,3,2,3,0), nrow = 3, ncol =3)
 # y = matrix(c(0,2,7,2,0,6,7,6,0), nrow = 3, ncol = 3)
 # mantel.test(x,y)
+##$z.stat
+##[1] 34
+##$p
+##[1] 0.635
+##$alternative
+##[1] "two.sided"
