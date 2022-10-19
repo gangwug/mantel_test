@@ -5,10 +5,15 @@ A python version of performing mantel test of two matrices. The original R versi
 This package is free and open source software, licensed under GPL(>= 2).
  
 ## Usage
+
 import mantel_test
+
 import pandas as pd
+
 x = pd.DataFrame({"a":[0,1,2], "b":[1,0,3], "c":[2,3,0]})
+
 y = pd.DataFrame({"a":[0,2,7], "b":[2,0,6], "c":[7,6,0]})
+
 mantel_test(x,y)
 
 ## Note
